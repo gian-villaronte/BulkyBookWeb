@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAFxuLFdgnO06HWQcNx3ELqQAAAAACAAAAAAADZgAAwAAAABAAAADLKyXD/PhFpXe3UJAxmwCFAAAAAASAAACgAAAAEAAAADB/kJ9r4O3nYEm6DUAG0WOAAAAAta/PU7Jy9E8zAuhrS6AnjDL83vVdp+voNZhvpko5ZYBb6tzoDuumj4FNyJv+yPeOjDYF5NPFa+02gStAY8elHpnH4Uq8o+o1h1Y6qFuS+dpoz6AAlC5hWWhayDSiIxpd2TazEtlLzjdVG09dytLCepovDO0BdyBw4UTpFbfoqbQUAAAAPeqFIXJgankV5iy/gyuIax+ATnE=</EncryptedPassword>
+    <History>True|2023-09-25T21:59:54.0499231Z;True|2023-09-25T17:41:57.5101014-04:00;True|2023-09-25T17:38:38.9148049-04:00;False|2023-09-25T17:28:55.8615853-04:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:dotnetmasteryserver-gv.database.windows.net,1433%3bInitial Catalog=dotNetMastery_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=3%2a3cu7e1%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BulkyBookWeb.Data.ApplicationDbContext">
+      <Value>Server=tcp:dotnetmasteryserver-gv.database.windows.net,1433%3bInitial Catalog=dotNetMastery_db%3bPersist Security Info=False%3bUser ID=admin-sql%3bPassword=3%2a3cu7e1%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>
